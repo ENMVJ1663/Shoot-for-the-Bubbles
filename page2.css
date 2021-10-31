@@ -1,0 +1,50 @@
+
+body {
+    background: rgba(255,255,255,0.5) url(BubblesDrawn_4.png);
+    background-size:initial;
+    background-blend-mode:overlay;
+}
+
+#content {
+    margin: 10vh 15vw;
+    font-size: 16px;
+
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+h1 {
+    text-align:center;
+}
+h3, h5 {
+    text-align: center;
+    color: grey;
+    font-family: serif;
+    font-style: italic;
+}
+
+.attribute {
+    text-decoration: underline grey;
+    font-style: italic;
+    font-family: serif;
+    color:rgb(62, 127, 165);
+}
+
+.author {
+    margin: 10vh -5vw;
+    display: block;
+}
+
+
+.author img {
+    border-radius: 50%;
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    width: 125px;
+    height: auto;
+}

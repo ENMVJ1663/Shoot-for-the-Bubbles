@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+
+      background: rgb(105 175 187) url(BubblesDrawn_3.png);
+      background-size: cover;
+      background-blend-mode:overlay;
+  
+  }
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+#content {
+  padding:10vh;
+}
+
+.card {
+  margin: 3vw;
+  border: 2px solid black;
+  /* float:right; */
+  background-color: rgba(0,0,0,0.15);
+
+}
+
+.card h5 {
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+  color: rgb(90, 85, 85);
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+h4 {
+  font-weight: 600;
+}
+
+video {
+
+  /* margin: 0 15vw; */
+  /* float:right; */
+  /* margin-top: 10vh; */
+  border-bottom: 3px solid black;
+  width: 300px;
+  align-self: center;
+}
+
+
+
+span {
+  text-align: center;
+  text-decoration: underline grey;
+}
